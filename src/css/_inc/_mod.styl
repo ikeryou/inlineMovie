@@ -1,0 +1,31 @@
+
+
+
+
+// LGのみ
+.onlyLG
+  display: block
+  @media screen and (max-width:$BREAKPOINT)
+    display: none
+
+// XSのみ
+.onlyXS
+  display: none
+  @media screen and (max-width:$BREAKPOINT)
+    display: block
+
+// 消す
+.hide
+  visibility: hidden;
+
+// マウスポインタをリンクに
+.cursor_pointer
+  cursor: pointer;
+
+// 操作できないように
+.noPointer
+  pointer-events: none
+
+
+.noLink
+  pointer-events: none;
